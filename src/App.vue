@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
+    <common-nav></common-nav>
   </div>
 </template>
 
 <script>
+import commonNav from 'components/common-nav/common-nav'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    commonNav
+  }
 }
 </script>
 
