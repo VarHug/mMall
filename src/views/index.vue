@@ -12,7 +12,7 @@
         <div class="floor-title">
           <img width="100%" src="//m.360buyimg.com/mobilecms/s750x80_jfs/t20863/125/519979559/24806/2e941d67/5b0fecc7N541bb0dd.png!q70.jpg.dpg">
         </div>
-        <ul class="floor-graphic">
+        <ul class="floor-graphic" v-if="floorList1">
           <li class="floor-graphic-item col04" v-for="(item, index) in floorList1" :key="index">
             <a :href="item.url" class="graphic-link">
               <div class="graphic-text">
@@ -30,7 +30,7 @@
         <div class="floor-title">
           <img width="100%" src="//m.360buyimg.com/mobilecms/s750x80_jfs/t15526/56/2344102455/23273/d8e15d5a/5aa0dbc1Nefd2bd2a.png!q70.jpg.dpg">
         </div>
-        <ul class="floor-graphic">
+        <ul class="floor-graphic" v-if="floorList2">
           <li class="floor-graphic-item col02" v-for="(item, index) in floorList2" :key="index">
             <a :href="item.url" class="graphic-link">
               <div class="graphic-text">
@@ -48,7 +48,7 @@
         <div class="floor-title">
           <img width="100%" src="//m.360buyimg.com/mobilecms/s750x80_jfs/t19381/275/717008577/26686/e58b7ef4/5aa23f27Nfa6d6be3.png!q70.jpg.dpg">
         </div>
-        <ul class="floor-graphic">
+        <ul class="floor-graphic" v-if="floorList3">
           <li class="floor-graphic-item col02" v-for="(item, index) in floorList3" :key="index">
             <a :href="item.url" class="graphic-link horizontal">
               <div class="graphic-text">
@@ -67,8 +67,8 @@
 </template>
 
 <script type="text/ecmascript-6">
-import { getAdvertising, getRecommend } from '../api/index.js'
-import { ERR_OK } from '../api/config.js'
+import { getAdvertising, getRecommend } from 'api/index.js'
+import { ERR_OK } from 'api/config.js'
 
 export default {
   data() {

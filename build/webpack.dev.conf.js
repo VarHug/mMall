@@ -16,6 +16,7 @@ const app = express()
 var appData = require('../data.json')
 var advertising = appData.advertising
 var recommend = appData.recommend
+var commodity = appData.commodity
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
@@ -61,6 +62,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         res.json({
           errno: 0,
           data: recommend
+        })
+      }),
+      app.get('/api/commodity', (req, res) => {
+        res.json({
+          errno: 0,
+          data: commodity
         })
       })
     }

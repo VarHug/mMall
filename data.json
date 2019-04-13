@@ -101,7 +101,7 @@
       "type": 1
     },
     {
-      "tit": "京东家电",
+      "tit": "北农家电",
       "wz": "家电狂欢 京彩有你",
       "image": [
         "//m.360buyimg.com/mobilecms/s150x150_jfs/t22363/318/1484948466/11138/8317fc9b/5b2a528eN7c6bde83.jpg!q70.jpg.dpg",
@@ -111,7 +111,7 @@
       "type": 1
     },
     {
-      "tit": "京东超市",
+      "tit": "北农超市",
       "wz": "超市好货特价抢",
       "image": [
         "//m.360buyimg.com/n1/s150x150_jfs/t19165/201/2652007889/78863/454152bf/5b063c38N5ad400c1.jpg!q70.jpg.dpg",
@@ -157,6 +157,710 @@
       "image": "//m.360buyimg.com/mobilecms/s180x180_jfs/t16705/82/285076461/40568/d2f7fc14/5a698c01Nab864629.jpg!q70.jpg.dpg",
       "url": "//pro.m.jd.com/mall/active/46s9NeY97sZFwvirKh1w69xMJfjs/index.html",
       "type": 2
+    }
+  ],
+  "commodity": [
+    {
+      "category": "手机数码",
+      "type": 0,
+      "goods": [
+        {
+          "gid": 20190413001,
+          "name": "Apple iPhone XR",
+          "price": 5899,
+          "seller": "Apple产品北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/mobilecms/s455x455_jfs/t1/3405/18/3537/69901/5b997c0aE5dc8ed9f/a2c208410ae84d1f.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/3405/18/3537/69901/5b997c0aE5dc8ed9f/a2c208410ae84d1f.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/4394/21/3522/68010/5b997c0aE91c7291d/b8494bf281991f94.jpg!q70.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/14660/26/3510/75469/5c26e061E76085e31/ef55ef9e2bf8cb84.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img12.360buyimg.com/cms/jfs/t1/32733/34/4713/266246/5c7f7c83E794ec9a6/2edcc8395adfc5c6.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413002,
+          "name": "vivo iQOO",
+          "price": 3298,
+          "seller": "vivo北农自营官方旗舰店",
+          "pic": "//img12.360buyimg.com/mobilecms/s455x455_jfs/t1/31199/14/3993/287777/5c791bb5Ebaa929af/044c52520956ebfb.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/31199/14/3993/287777/5c791bb5Ebaa929af/044c52520956ebfb.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/28920/24/8873/322011/5c791bb6E0f3605ce/f02e74c78c95af45.jpg!q70.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/20567/28/8835/246446/5c791bb6Ecd154077/84ad70f7e5007f15.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img14.360buyimg.com/imgzone/jfs/t1/27310/25/8989/169461/5c7ce950E372ed2af/6ac6a97b2aad04f8.jpg!q70.dpg",
+            "//img14.360buyimg.com/imgzone/jfs/t1/24849/32/9312/205953/5c7ce950Ed330454d/1572c488058200a4.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413003,
+          "name": "佳能（Canon）EOS 80D 单反套机（EF-S 18-200mm f/3.5-5.6 IS） 2420万有效像素 45点十字对焦 WIFI/NFC",
+          "price": 8099,
+          "seller": "佳能影像北农自营官方旗舰店",
+          "pic": "//img11.360buyimg.com/n2/s240x240_jfs/t2656/295/34058120/362134/d92995e5/56fc835dNe349b797.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t2656/295/34058120/362134/d92995e5/56fc835dNe349b797.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t2371/109/2985422726/363748/583bfe1b/56fc835fN3e7a82aa.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/vc/jfs/t1873/57/2833116314/67895/a8143c05/56eb79b2N608a918f.jpg!q70.dpg",
+            "//img20.360buyimg.com/vc/jfs/t1948/332/2744273784/211454/eb32cd5f/56eb79b4N9794347f.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413004,
+          "name": "索尼（SONY）WI-1000X Hi-Res颈挂式 入耳式 无线蓝牙耳机 降噪耳机 手机通话 黑色",
+          "price": 1599,
+          "seller": "SONY北农自营官方旗舰店",
+          "pic": "//img13.360buyimg.com/n2/s240x240_jfs/t17365/185/2637278968/111345/23fc829a/5b03af68Ne4180a01.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t17365/185/2637278968/111345/23fc829a/5b03af68Ne4180a01.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t9238/358/1203352404/76471/814b05d3/59b5f12eN3d0f5e20.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "http://img30.360buyimg.com/sku/jfs/t1/20417/31/11814/114180/5c934997E6b63c4e7/bf326b87c950b009.jpg"
+          ]
+        },
+        {
+          "gid": 20190413005,
+          "name": "爱奇艺VR 小阅悦Plus 智能 vr眼镜 3D头盔 支持全面屏手机",
+          "price": 109,
+          "seller": "爱奇艺VR北农自营旗舰店",
+          "pic": "//img12.360buyimg.com/n2/s240x240_jfs/t1/20047/2/9404/86693/5c7de35bE3f887400/69ca50bd3968401e.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/20047/2/9404/86693/5c7de35bE3f887400/69ca50bd3968401e.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/32980/26/4494/57636/5c7de35cEea077256/02ea35e3fa6e9829.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t21940/84/745816942/274103/3a0988e2/5b175699N9ca249b5.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "家用电器",
+      "type": 1,
+      "goods": [
+        {
+          "gid": 20190413006,
+          "name": "飞利浦（PHILIPS）电热水壶 304不锈钢家用大容量烧水壶 HD9316/03 1.7L保温壶",
+          "price": 139,
+          "seller": "飞浦电器专营店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/5581/24/3186/135551/5b98d39cEc8793456/e279beeec0864fdf.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/5581/24/3186/135551/5b98d39cEc8793456/e279beeec0864fdf.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t23344/177/2089063684/64052/6c64af76/5b7124b2N7e297041.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/popWaterMark/jfs/t22528/320/2041596099/1526564/7cd92479/5b7124dcNdee844c4.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413007,
+          "name": "美的（Midea）电饭煲电饭锅5L大容量智能预约气动涡轮防溢锅金属机身家用电饭煲MB-WFS5017TM",
+          "price": 299,
+          "seller": "美的生活电器北农自营旗舰店",
+          "pic": "//img12.360buyimg.com/n2/s240x240_jfs/t1/28040/19/15324/203625/5cae9d39Ec2ab8b8a/1d2bb8e8c4fd0c11.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/28040/19/15324/203625/5cae9d39Ec2ab8b8a/1d2bb8e8c4fd0c11.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/15332/5/15152/125996/5cac63deE377495f8/14157e48a35ff9cb.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t25888/172/346001277/165180/d848e474/5b6c1247N6b793b4d.jpg!q70.dpg",
+            "//img14.360buyimg.com/cms/jfs/t18352/321/1108530525/120713/8c25adaa/5abc8499N584522fb.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413008,
+          "name": "美的（Midea）M1-L213C 快捷微波炉 微电脑操控 360°转盘加热 智能蒸煮菜单 21升",
+          "price": 369,
+          "seller": "美的厨房小家电北农自营旗舰店",
+          "pic": "//img11.360buyimg.com/n2/s240x240_jfs/t1/19564/9/10782/138700/5c89d43bEd6a819af/03a290bb867948cb.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/19564/9/10782/138700/5c89d43bEd6a819af/03a290bb867948cb.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/20236/32/5089/49802/5c385fadE79a09c7c/10fa6b9c32a68aa5.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/16345/27/8132/337802/5c74b371E87ab8dee/616f4e2f9fd3c0b7.jpg"
+          ]
+        },
+        {
+          "gid": 20190413009,
+          "name": "美的（Midea）T3-L322E 家用多功能电烤箱 石窑烤 专业烘焙 32升大容量 搪瓷内胆",
+          "price": 599,
+          "seller": "美的厨房小家电北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t24502/227/732946986/222207/e07c2151/5b3ed7eeNf98805ff.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t24502/227/732946986/222207/e07c2151/5b3ed7eeNf98805ff.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t26095/211/893121575/340354/686fdeb6/5b7faa2dN4565dfbd.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "https://img30.360buyimg.com/sku/jfs/t11599/84/1062833389/197713/4b418633/59fd7089N9b230960.jpg",
+            "https://img30.360buyimg.com/sku/jfs/t11665/195/1081127260/90748/5bd5fa78/59fd7094N6f1b1bd3.jpg"
+          ]
+        },
+        {
+          "gid": 20190413010,
+          "name": "美的(Midea) 213升 节能静音家用三门小冰箱  阳光米 BCD-213TM(E)",
+          "price": 1388,
+          "seller": "美的冰箱北农自营旗舰店",
+          "pic": "//img13.360buyimg.com/n2/s240x240_jfs/t1/176/13/11860/61170/5bcfc7d5E20d8e072/7df6640c5d6de9c7.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/176/13/11860/61170/5bcfc7d5E20d8e072/7df6640c5d6de9c7.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/2086/3/16241/261903/5be12f4cE8f65f1ee/e9fee82d75acb60a.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t25306/283/1182987276/407080/4e90a41c/5b8e1ac3Nc1013edc.jpg",
+            "//img30.360buyimg.com/sku/jfs/t25990/28/1244552782/403947/eabb46dd/5b8e1abcN5b6de2cd.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "电脑办公",
+      "type": 2,
+      "goods": [
+        {
+          "gid": 20190413011,
+          "name": "联想(Lenovo)拯救者Y7000P第八代英特尔酷睿i7 15.6英寸游戏笔记本电脑(i7-8750H 8G 512G GTX1060 144Hz黑)",
+          "price": 8399,
+          "seller": "联想电脑北农自营旗舰店",
+          "pic": "//img12.360buyimg.com/n2/s240x240_jfs/t1/27368/40/7173/165300/5c67ed1eEc7ad4926/fd6035633ebff93a.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/27368/40/7173/165300/5c67ed1eEc7ad4926/fd6035633ebff93a.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t26416/155/2211830359/87136/8374ff42/5bfbc05dN92384e05.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/30623/14/1331/113709/5c499a93E3b84c13c/faddb10d885096ae.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/9082/18/6829/80496/5be293d1E84dccadf/bb1c99822b2581c6.jpg"
+          ]
+        },
+        {
+          "gid": 20190413012,
+          "name": "联想(Lenovo)小新青春版 英特尔酷睿i7 14英寸 轻薄笔记本电脑(I7-8565U 8G 1T+128G FHD 2G独显)追梦银  ",
+          "price": 4999,
+          "seller": "联想电脑北农自营旗舰店",
+          "pic": "//img13.360buyimg.com/mobilecms/s455x455_jfs/t1/36460/10/714/176022/5cac5047E1f9ae545/8f1b86c40d19a781.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/36460/10/714/176022/5cac5047E1f9ae545/8f1b86c40d19a781.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/28742/9/15051/163695/5cac4febE82b5e9c1/75f174a22ea415a6.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/33892/31/1388/268574/5ca5a319E98f6d029/a84f0d95eac5e183.jpg"
+          ]
+        },
+        {
+          "gid": 20190413013,
+          "name": "达尔优（dareu）机械师108键机械合金版游戏背光机械键盘 黑金色 青轴",
+          "price": 159,
+          "seller": "达尔优北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/22050/1/291/265386/5c08b748Ebb74e1fb/72e093ce2711e081.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/22050/1/291/265386/5c08b748Ebb74e1fb/72e093ce2711e081.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t5368/123/140182321/74188/3ef5ecab/58f96ef2N6a705efc.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/15382/38/2040/167460/5c188ecfEca70e078/89fe885dad2968a4.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/15905/39/591/302591/5c0b7857E56b61016/a6c9eef806d0aa30.jpg"
+          ]
+        },
+        {
+          "gid": 20190413014,
+          "name": "七彩虹（Colorful）iGame GeForce GTX 1660Ti Ultra 6G GDDR6 电竞游戏显卡",
+          "price": 2199,
+          "seller": "七彩虹北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/30820/6/1880/95947/5c62885dEb8f21005/2d89768145ebb64e.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/30820/6/1880/95947/5c62885dEb8f21005/2d89768145ebb64e.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/20651/7/6854/224721/5c62886cE90d58f99/ad2ef2a7be4133c0.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/21055/12/7673/95139/5c6e72e4E057cdda9/61293ba8317e565f.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/29050/32/7558/50956/5c6e72e4E4133b0e3/875b439c9a41ca21.jpg"
+          ]
+        },
+        {
+          "gid": 20190413015,
+          "name": "三星（SAMSUNG）23.5英寸1800R曲面 广视角可壁挂 HDMI高清接口 电脑液晶显示器 （C24F390FHC）",
+          "price": 849,
+          "seller": "三星（SAMSUNG）北农自营官方旗舰店",
+          "pic": "//img12.360buyimg.com/n2/s240x240_jfs/t1/28636/3/15318/75805/5caee2daEeb13be94/3e824376820ef711.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/28636/3/15318/75805/5caee2daEeb13be94/3e824376820ef711.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t12463/60/1230406318/473066/853ac707/5a1ccda2Nc5f313c4.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/15247/7/11659/380127/5c91d419E5a0a99e5/19748e8c8e11d88f.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/22603/19/11756/308648/5c91d419E6f65e0cb/3063becad9b41c98.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "美妆护肤",
+      "type": 3,
+      "goods": [
+        {
+          "gid": 20190413016,
+          "name": "完美日记倾色慕光唇膏小黑钻 口红哑光不显唇纹持久显色滋润朱正廷同款 206 沙漠玫瑰",
+          "price": 59,
+          "seller": "完美日记官方旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s370x370_jfs/t1/32544/35/9895/49645/5cab74fdE3f3d71d2/59efe3f2dbd20084.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/32544/35/9895/49645/5cab74fdE3f3d71d2/59efe3f2dbd20084.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/19633/32/9972/109373/5c83353fE64d3825b/4b5fc9533c6a196c.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img14.360buyimg.com/imgzone/jfs/t1/23770/4/10090/484608/5c836c92Ed1d62bdd/7f9c7a2575378187.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413017,
+          "name": "迪奥（Dior）烈艳蓝金唇膏口红3.5g 080(滋润保湿 妆感舒悦 微笑红色)  ",
+          "price": 400,
+          "seller": "迪奥（Dior）美妆北农自营专区",
+          "pic": "//img13.360buyimg.com/mobilecms/s519x519_jfs/t17173/11/987480935/93070/fe9eab1e/5ab47b47N56a9ce8a.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t17173/11/987480935/93070/fe9eab1e/5ab47b47N56a9ce8a.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t19129/170/982016896/61585/61f7d4af/5ab47b47N0f6fcbd4.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/14223/5/4842/239373/5c35d506E55764bf8/3dd7bcd8da4219bc.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/10980/26/8669/97541/5c35d505E89bcc70b/fb9829b20d6baa91.jpg"
+          ]
+        },
+        {
+          "gid": 20190413018,
+          "name": "【源自法国】亚菲儿流沙金精美礼盒礼物香水女士持久淡香清新自然",
+          "price": 199,
+          "seller": "亚菲儿官方旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s370x370_jfs/t1/15377/14/5949/77819/5c4525ffE6379097b/3746580722cc4103.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/15377/14/5949/77819/5c4525ffE6379097b/3746580722cc4103.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/21087/23/6470/146974/5c5258e4Ead06b102/f7f6b4ef4911fb0b.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img14.360buyimg.com/cms/jfs/t1/11612/29/7773/131099/5c650795Ee75c1934/43ecc3b5e7376c5c.jpg!q70.dpg",
+            "//img10.360buyimg.com/imgzone/jfs/t1/23470/40/6515/472621/5c525e97E0666787a/86bbc2f8a4eec208.jpg!q70.dpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "个护清洁",
+      "type": 4,
+      "goods": [
+        {
+          "gid": 20190413019,
+          "name": "舒洁（Kleenex）湿厕纸 40片家庭装 私处清洁湿纸巾湿巾 可搭配卷纸卫生纸使用",
+          "price": 9,
+          "seller": "舒洁北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t20722/19/207226622/163012/afdb9012/5b03de44N6b1beaf0.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t20722/19/207226622/163012/afdb9012/5b03de44N6b1beaf0.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t20998/208/133347141/247861/daa95590/5afe530cNa06c950c.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/cms/jfs/t18058/201/2586507234/111944/64dee907/5afe4755N54b3b145.jpg!q70.dpg",
+            "//img12.360buyimg.com/cms/jfs/t18454/294/2545663972/87265/307c5a7e/5afe4758N3e77cc0d.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413020,
+          "name": "维达(Vinda) 卷纸 蓝色经典3层140g卫生纸巾*10卷（3层与4层随机发货）",
+          "price": 20,
+          "seller": "维达北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1342/354/428785858/111352/ce701549/55769c04Nbd1ad1d0.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1342/354/428785858/111352/ce701549/55769c04Nbd1ad1d0.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t20374/328/1552730734/204316/2f4a7aad/5b2b73a4N9884dfeb.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/vc/jfs/t19432/98/2184920215/251060/eea1712/5ae95844N11480641.jpg!q70.dpg",
+            "//img20.360buyimg.com/vc/jfs/t18076/65/2198790139/339236/68b6c544/5ae9584cN2a2ffdd9.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413021,
+          "name": "蓝月亮 亮白增艳洗衣液（自然清香）3kg/瓶",
+          "price": 56,
+          "seller": "",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t18622/229/2388034702/255075/e66f619b/5af3bfdbN12b571bc.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t18622/229/2388034702/255075/e66f619b/5af3bfdbN12b571bc.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t19369/233/2459172736/290956/e2b4036c/5af3bfe2N0a92bc65.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/vc/jfs/t11497/113/2430751283/226762/82d3ce9f/5a17cf53N04539744.jpg!q70.dpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "汽车生活",
+      "type": 5,
+      "goods": [
+        {
+          "gid": 20190413022,
+          "name": "汽车坐垫套全包四季通用冰丝夏季汽车座垫座套宝马朗逸速腾宝来途观迈腾轩逸英朗卡罗拉奇骏博越crv思域 卡其色 豪华款【2枕头+2腰靠】",
+          "price": 318,
+          "seller": "生兴汽车用品专营店",
+          "pic": "//img12.360buyimg.com/n2/s240x240_jfs/t1/14782/3/11280/303783/5c8f2614Ee0824320/00c25ed19dbd34e2.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/14782/3/11280/303783/5c8f2614Ee0824320/00c25ed19dbd34e2.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/25734/28/11215/271376/5c8f4aecE33a36851/5a34d71a5ec1e709.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/popWaterMark/jfs/t1/15473/31/10864/259480/5c8b6d92Eba0a8db0/6db09dda4f711c2c.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413023,
+          "name": "米其林 215/50R17 浩悦四代",
+          "price": 799,
+          "seller": "米其林轮胎自营旗舰店",
+          "pic": "//img14.360buyimg.com/n2/s240x240_jfs/t20353/90/2151664529/239633/db55c70a/5b495ca0N820c2b2d.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t20353/90/2151664529/239633/db55c70a/5b495ca0N820c2b2d.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t23581/193/960480841/48823/14cebb41/5b495ca0N2aaaf844.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/21439/26/13953/229529/5ca34376E0806dccd/d83e392a9a2db73c.jpg!q70.dpg",
+            "//img30.360buyimg.com/sku/jfs/t1/34044/11/1073/139424/5ca34376Ee45293a7/5fad0e63e2284527.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413024,
+          "name": "卡卡铂机油+品质机滤+施工汽车小保养套餐 全合成机油 5W-30 GF-5 SN 4L装 纯正欧洲血统润滑油 汽车用品",
+          "price": 280,
+          "seller": "卡卡铂北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/23003/6/9661/170474/5c7f8c9fE1cf95e0f/ded9e2cd135f3fb7.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/23003/6/9661/170474/5c7f8c9fE1cf95e0f/ded9e2cd135f3fb7.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/11231/8/10397/229636/5c7f5732E2a2544b2/2338263e2850d75c.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/24610/33/4605/228764/5c32de80E255ddbe7/165e5d5ab872c70f.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/8742/15/12145/166695/5c32de80E0750e5aa/c1e7d1bcf1be823a.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "北农超市",
+      "type": 6,
+      "goods": [
+        {
+          "gid": 20190413025,
+          "name": "良品铺子高端零食 鸭肉大礼包 卤味鸭脖鸭掌肉类零食大礼包一整箱490g*1",
+          "price": 55,
+          "seller": "良品铺子北农自营旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/26548/12/13648/269002/5ca1b9f3E211f6914/2c007b3144c383f2.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/26548/12/13648/269002/5ca1b9f3E211f6914/2c007b3144c383f2.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/20816/33/15191/232760/5cadbd43Ead1b4cf5/521884544719f93b.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img10.360buyimg.com/imgzone/jfs/t1/21852/37/10330/134428/5c85f517Ebe8f8dc7/a79ec762b106de70.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413026,
+          "name": "三只松鼠休闲零食网红孕妇儿童早餐面包蛋糕糕点办公室点心礼盒氧气吐司800g整箱装  ",
+          "price": 36,
+          "seller": "三只松鼠北农自营旗舰店",
+          "pic": "//img11.360buyimg.com/mobilecms/s455x455_jfs/t1/6640/40/1070/166628/5bcb4a78E395a3505/9b907d319268ce79.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/6640/40/1070/166628/5bcb4a78E395a3505/9b907d319268ce79.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/15873/11/11510/117518/5c9049ecE1d8cf34b/6813bcafdb84b78e.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img10.360buyimg.com/imgzone/jfs/t1/9751/18/706/161904/5bcb4d6dE52362950/ce9d4a41ba0fdf6d.jpg!q70.dpg",
+            "//img12.360buyimg.com/imgzone/jfs/t1/1663/28/10483/241142/5bcb4d6eE77b1778e/283cd3a33264ee30.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413027,
+          "name": "雀巢(Nestle) 威化 脆脆鲨 巧克力口味 夹心饼干 休闲零食 独立包装 24条*20g+8条*20g  ",
+          "price": 29,
+          "seller": "雀巢北农自营旗舰店",
+          "pic": "//img11.360buyimg.com/mobilecms/s455x455_jfs/t24466/364/2305915215/208098/67e6d60/5b7b9167N1a48e42d.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t24466/364/2305915215/208098/67e6d60/5b7b9167N1a48e42d.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t23749/360/2292141168/207848/cd6d9ab7/5b7b9174Nd2c48a3f.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t25657/247/533400013/191665/6a76d4a1/5b72a4d9N8caf7471.jpg",
+            "//img30.360buyimg.com/sku/jfs/t24799/225/526326006/130702/18899b04/5b72a4e5N7c890d98.jpg"
+          ]
+        },
+        {
+          "gid": 20190413028,
+          "name": "  良品铺子高端零食 手撕面包棒 糕点面包营养早餐即食小吃750g*1  ",
+          "price": 36,
+          "seller": "良品铺子北农自营旗舰店",
+          "pic": "//img14.360buyimg.com/mobilecms/s455x455_jfs/t1/32165/14/8941/182550/5ca1ba21E799ad2ae/b76380e82eb20a53.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/32165/14/8941/182550/5ca1ba21E799ad2ae/b76380e82eb20a53.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/36123/31/483/168594/5caaa0e8Ef25a97f5/51aa3ccae317e729.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img12.360buyimg.com/imgzone/jfs/t1/27688/7/10500/50136/5c877188Ecf4f91ac/039825f23b6f9279.jpg!q70.dpg",
+            "//img13.360buyimg.com/imgzone/jfs/t1/29591/30/10492/106269/5c877188Eb1c53e0d/18b7a01f72cb95df.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413029,
+          "name": "卫龙 休闲零食 辣条 网红怀旧零食大礼包 办公室零食 亲嘴烧1250g/袋 约80片（口味随机发货）  ",
+          "price": 33,
+          "seller": "卫龙北农自营旗舰店",
+          "pic": "//img13.360buyimg.com/mobilecms/s455x455_jfs/t3127/141/5082684848/239996/b37d5dd8/5860e2c8N0883857a.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t3127/141/5082684848/239996/b37d5dd8/5860e2c8N0883857a.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t3853/324/368328489/283313/e83169da/584e58ebN7699dbfb.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t12427/77/2357920499/200369/52828c6e/5a3c7961N76e94aff.jpg!q70.dpg",
+            "//img30.360buyimg.com/sku/jfs/t16045/341/730575689/298881/c080fca/5a3c79ebNf58d8f06.gif"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "图书音像",
+      "type": 7,
+      "goods": [
+        {
+          "gid": 20190413030,
+          "name": "平凡的世界 全三册  路遥著 正版畅销小说",
+          "price": 75,
+          "seller": "文辉博库专营店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/19123/30/3972/186855/5c2c8534E7e7ac222/883da64b6ce29bfe.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/19123/30/3972/186855/5c2c8534E7e7ac222/883da64b6ce29bfe.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t18799/218/1865817917/269538/600c8566/5adc6cbeN274ac13b.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/imgzone/jfs/t1/1556/24/12142/249540/5bd26d5bEd5d83f51/83daf63b050e8c75.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413031,
+          "name": "摆渡人　【荐书联盟推荐】",
+          "price": 30,
+          "seller": "",
+          "pic": "//img13.360buyimg.com/mobilecms/s455x455_jfs/t10072/231/1597945576/58010/1512bd1b/59e35198N2e697952.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t10072/231/1597945576/58010/1512bd1b/59e35198N2e697952.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1279/347/239032622/208454/314bcd4f/555db15dN5b409ff8.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/vc/jfs/t1222/44/1395938447/252506/7f7731ea/559b9209N998bef45.jpg!q70.dpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "运动户外",
+      "type": 8,
+      "goods": [
+        {
+          "gid": 20190413032,
+          "name": "安格耐特（Agnite）直拍2拍3球乒乓球拍 F2320对拍套装",
+          "price": 23,
+          "seller": "安格耐特北农自营专区",
+          "pic": "//img10.360buyimg.com/n2/s370x370_jfs/t1/14985/22/6710/71805/5c63d7e6Ea122bda4/dd18ddffeeccd69b.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/14985/22/6710/71805/5c63d7e6Ea122bda4/dd18ddffeeccd69b.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t10192/94/1733744949/185963/19ae5659/59e552f2N79176b49.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img13.360buyimg.com/cms/jfs/t24949/137/1242338569/536378/c43f3d93/5b8e592fNf0fb8c7d.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413033,
+          "name": "【赞商品】SPALDING 斯伯丁篮球 经典NBA儿童成人 lanqiu 室内外比赛7号PU 蓝球 76-167Y  ",
+          "price": 135,
+          "seller": "SPALDING斯伯丁北农自营专区",
+          "pic": "//img12.360buyimg.com/mobilecms/s519x519_jfs/t1/32409/15/6276/807369/5c8cbbcaE06ef2a72/e0943a3c983f3e2d.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/32409/15/6276/807369/5c8cbbcaE06ef2a72/e0943a3c983f3e2d.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/10611/33/14874/791797/5c8cbbc9E3888f20b/2bbbb3795f8a13e4.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img14.360buyimg.com/imgzone/jfs/t18637/122/1284944753/96793/b5423151/5ac1a469Nc0d04ae8.jpg!q70.dpg",
+            "//img10.360buyimg.com/imgzone/jfs/t18418/194/1257143051/76386/3361f813/5ac1a469N4b7e7b66.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413034,
+          "name": "李宁 LI-NING 羽毛球拍双拍2支全碳素对拍超轻专业初学羽拍套装A618（已穿线）  ",
+          "price": 300,
+          "seller": "李宁羽毛球北农自营旗舰店",
+          "pic": "//img14.360buyimg.com/mobilecms/s519x519_jfs/t1/27691/35/4752/482310/5c359768E82cbab9a/04649c76969d9423.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/27691/35/4752/482310/5c359768E82cbab9a/04649c76969d9423.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/8742/10/6007/154117/5bdfb17dEf6980222/80574af452acf250.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img14.360buyimg.com/imgzone/jfs/t1/10797/27/8714/94350/5c3989ddEe85b0ecc/98d0c6252543b0f3.jpg!q70.dpg",
+            "//img12.360buyimg.com/imgzone/jfs/t1/26068/18/5132/57437/5c3989ddEc1c19b30/c3bd1e17356a94f2.jpg!q70.dpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "内衣配饰",
+      "type": 9,
+      "goods": [
+        {
+          "gid": 20190413035,
+          "name": "迪万无钢圈聚拢文胸套装2019春季新款性感蕾丝内衣女薄款小胸欧美女式薄杯胸罩 DW1805酒红色 70A/32A/S",
+          "price": 165,
+          "seller": "迪万官方旗舰店",
+          "pic": "//img11.360buyimg.com/n2/s370x370_jfs/t21469/210/1765793117/214025/f355df68/5b383d0aN96537e59.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t21469/210/1765793117/214025/f355df68/5b383d0aN96537e59.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t22270/306/1809106628/399662/c834136c/5b37af98N6d0f9a5d.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/popWaterMark/jfs/t1/10843/37/6724/222353/5c245fceE37832d77/efa746c93600a988.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413036,
+          "name": "法国KJ无钢圈文胸小胸聚拢深V性感调整型蕾丝文胸套装女士本命年品牌胸罩上托侧收少女内衣新款 绿色 75B=34B(配内裤)  ",
+          "price": 168,
+          "seller": "KJ文胸旗舰店",
+          "pic": "//img12.360buyimg.com/mobilecms/s519x519_jfs/t27880/339/127741203/156378/afb77cf/5b858917N16f724e9.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t27880/339/127741203/156378/afb77cf/5b858917N16f724e9.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t24778/30/993491201/138762/becf8cf1/5b85881bN4a90992c.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img13.360buyimg.com/popWaterMark/jfs/t24214/291/2608594887/365869/29fd4b08/5b8589a1N160d55dc.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413037,
+          "name": "俞兆林丝袜女超薄款连裤袜防勾丝性感长筒黑肉色春夏打底袜 肤色10双 M码  ",
+          "price": 89,
+          "seller": "俞兆林北农自营旗舰店",
+          "pic": "//img12.360buyimg.com/mobilecms/s519x519_jfs/t1/18912/32/14237/69153/5ca5823eE2acbfee8/5cbe512b770079b9.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/18912/32/14237/69153/5ca5823eE2acbfee8/5cbe512b770079b9.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/30159/27/6978/185171/5c93303cE1384f3be/9a0be3a1dbcb61fc.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/22083/12/11385/136947/5c8f6d4bE1e1c727d/1660cb50730dff22.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/22998/9/11388/111732/5c8f6d4bEe72e89a4/df6b743c068aed49.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "箱包手袋",
+      "type": 10,
+      "goods": [
+        {
+          "gid": 20190413038,
+          "name": "瑞士军刀双肩包男士背包新款大容量休闲商务旅行电脑包学生书包 USb充电包 黑色 小号带usb送多功能刀+锁",
+          "price": 169,
+          "seller": "SVVISSSVVER官方旗舰店",
+          "pic": "//img10.360buyimg.com/n2/s240x240_jfs/t1/31404/13/10028/198564/5cab6702E902ee85b/defe8f413b6632a7.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/31404/13/10028/198564/5cab6702E902ee85b/defe8f413b6632a7.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/26206/6/10954/130337/5c8b4a3dE46fc8c10/38a4a864a5b6e03f.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img20.360buyimg.com/imgzone/jfs/t1/31676/25/7514/223067/5c97932fEaf5507a4/a4cf970cf152cecf.jpg!q70.dpg",
+            "//img13.360buyimg.com/imgzone/jfs/t1/26290/5/12231/184939/5c97932fE01967152/0748d851dc7b5cb8.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413039,
+          "name": "小米（MI）90分旅行箱拉杆箱1A 男女万向轮登机行李箱 20英寸 星空灰",
+          "price": 299,
+          "seller": "小米北农自营旗舰店",
+          "pic": "//img11.360buyimg.com/n2/s240x240_jfs/t24730/166/741903704/156234/3353f568/5b7a9614N03547f43.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t24730/166/741903704/156234/3353f568/5b7a9614N03547f43.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t23263/329/2278292952/155822/dc2d021d/5b7a961cN20195a34.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t22687/177/2325760886/405479/b3eaa4e7/5b7a9220N97f5f3f8.jpg"
+          ]
+        },
+        {
+          "gid": 20190413040,
+          "name": "【舒提啦旅行新神器】男女士商务旅行箱静音万向轮行李箱抗摔拉杆箱登机箱20/24/29英寸 波尔多红 20英寸 / 登机箱  ",
+          "price": 2390,
+          "seller": "舒提啦旗舰店",
+          "pic": "//img10.360buyimg.com/mobilecms/s455x455_jfs/t1/23055/13/15638/115906/5cb0b0b0E0a8ddafe/2827a7a302025e70.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t1/23055/13/15638/115906/5cb0b0b0E0a8ddafe/2827a7a302025e70.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t1/12284/33/11233/119384/5c8a16c6Eabb01578/3f4ab8659009dabf.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/popWaterMark/jfs/t1/23161/15/11519/48365/5c90b9f9E66a73d80/f17a9eed8bf5fe94.jpg!q70.dpg",
+            "//img30.360buyimg.com/popWaterMark/jfs/t1/17548/36/11555/80583/5c90b9f9E58f52d83/3a864b3f1a004ec9.jpg!q70.dpg"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "宠物生活",
+      "type": 11,
+      "goods": [
+        {
+          "gid": 20190413041,
+          "name": "皇家 (royal canin) 狗粮 CC优选成犬粮 8KG",
+          "price": 170,
+          "seller": "皇家北农自营官方旗舰店",
+          "pic": "//img13.360buyimg.com/n2/s240x240_jfs/t2083/106/1546658582/349409/52694683/566969f9Ne7230912.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t2083/106/1546658582/349409/52694683/566969f9Ne7230912.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t20872/302/2621880006/198370/d8f4e7ca/5b5d9ae8Na2137025.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t26194/302/1410668510/219668/80f336b/5be8fab0Nb084474f.jpg"
+          ]
+        },
+        {
+          "gid": 20190413042,
+          "name": "麦富迪 宠物狗粮 藻趣儿通用成犬粮7.5kg  ",
+          "price": 118,
+          "seller": "麦富迪北农自营旗舰店",
+          "pic": "//img12.360buyimg.com/mobilecms/s455x455_jfs/t25009/21/2216981778/370096/e2af1f70/5bc69da1N3147afbf.jpg!q70.dpg.webp",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t25009/21/2216981778/370096/e2af1f70/5bc69da1N3147afbf.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t27778/228/1353914897/473985/a009d234/5bc69da2Nee1d461e.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t24328/318/2529286903/296548/5cc106a/5b851192N0ece5c56.jpg!q70.dpg",
+            "//img14.360buyimg.com/imgzone/jfs/t12886/253/1856227451/505695/7e056c05/5a29fb94N4a020d6a.jpg!q70.dpg"
+          ]
+        },
+        {
+          "gid": 20190413043,
+          "name": "皇家(royal canin) 猫粮 幼猫猫粮K36-12月龄以下2kg (产品升级 新旧包装随机发货)",
+          "price": 117,
+          "seller": "皇家北农自营官方旗舰店",
+          "pic": "//img13.360buyimg.com/n2/s240x240_jfs/t18196/249/979760110/98991/8c16330c/5ab325cdNed3b1c44.jpg!q70.jpg",
+          "images": [
+            "//m.360buyimg.com/mobilecms/s750x750_jfs/t18196/249/979760110/98991/8c16330c/5ab325cdNed3b1c44.jpg!q80.dpg.webp",
+            "//m.360buyimg.com/mobilecms/s1265x1265_jfs/t15811/227/2580329719/67500/802f8321/5ab325cdNec0ff6bf.jpg!q70.dpg.webp"
+          ],
+          "detail": [
+            "//img30.360buyimg.com/sku/jfs/t1/35867/36/885/268756/5cada092E40499d07/97e1fa0835cef898.jpg",
+            "//img30.360buyimg.com/sku/jfs/t1/35600/34/855/286486/5cada0a8E8b20caa7/b28ab15cce77af63.jpg"
+          ]
+        }
+      ]
     }
   ]
 }

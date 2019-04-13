@@ -40,7 +40,8 @@ module.exports = {
       'cube-ui': 'cube-ui/lib',
       'common': resolve('src/common'),
       'components': resolve('src/components'),
-      'views': resolve('src/views')
+      'views': resolve('src/views'),
+      'api': resolve('src/api')
     }
   },
   plugins: [
