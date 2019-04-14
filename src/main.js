@@ -10,6 +10,10 @@ import '@/common/stylus/index.styl'
 Vue.config.productionTip = false
 Vue.use(Cube)
 
+Vue.filter('price', function (value) {
+  return `￥${value}.00`
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

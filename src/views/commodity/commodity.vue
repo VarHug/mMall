@@ -3,16 +3,14 @@
     <cube-scroll-nav
       v-if="commodityList && commodityList.length > 0"
       :side="true"
-      :data="commodityList"
-      @change="changeHandler"
-      @sticky-change="stickyChangeHandler">
+      :data="commodityList">
       <cube-scroll-nav-panel
         v-for="(group, gsindex) in commodityList"
         :key="gsindex"
         :label="group.category"
         :title="group.category">
         <ul class="goods-list">
-          <li class="good" v-for="(good, gindex) in group.goods" :key="gindex">
+          <li class="good" v-for="(good, gindex) in group.goods" :key="gindex" @click.stop="showGoodDetail(good)">
             <div class="good-img-wrapper">
               <img width="100%" :src="good.pic">
             </div>
@@ -25,17 +23,20 @@
         </ul>
       </cube-scroll-nav-panel>
     </cube-scroll-nav>
+    <good-detail :good="selectedGood" ref="goodDetail"></good-detail>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import { getCommodity } from 'api/commodity.js'
 import { ERR_OK } from 'api/config.js'
+import GoodDetail from 'views/good-detail/good-detail'
 
 export default {
   data() {
     return {
-      commodityList: []
+      commodityList: [],
+      selectedGood: {}
     }
   },
   created() {
@@ -49,20 +50,13 @@ export default {
         }
       })
     },
-    changeHandler(label) {
-      console.log('changed to:', label)
-    },
-    stickyChangeHandler(current) {
-      console.log('sticky-change', current)
-    }
-  },
-  filters: {
-    price(value) {
-      return `￥${value}.00`
+    showGoodDetail(good) {
+      this.selectedGood = good
+      this.$refs.goodDetail.show()
     }
   },
   components: {
-
+    GoodDetail
   }
 }
 </script>
@@ -74,6 +68,7 @@ export default {
   right 0
   bottom 45px
   left 0
+  z-index 2
   .cube-scroll-nav
     >>> .cube-scroll-nav-bar
           background #f8f8f8
