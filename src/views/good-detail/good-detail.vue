@@ -1,28 +1,32 @@
 <template>
   <transition name="slide">
     <div class="detail" v-show="showFlag">
-      <cube-scroll>
-        <header>
+      <header>
+        <h1 class="title">
           <div class="back" @click="hide">
             <i class="cubeic-back"></i>
           </div>
-          <h1 class="title">商品</h1>
-        </header>
-        <cube-slide class="good-detail-slide" :data="good.images">
-          <cube-slide-item v-for="(item, index) in good.images" :key="index">
-            <div class="img-wrapper">
-              <img :src="item" width="100%">
-            </div>
-          </cube-slide-item>
-        </cube-slide>
-        <div class="good-desc">
-          <h2 class="good-name">{{good.name}}</h2>
-          <p class="good-price">{{good.price | price}}</p>
-        </div>
-        <div class="good-detail">
-          <img width="100%" :src="item" v-for="(item, index) in good.detail" :key="index">
-        </div>
-      </cube-scroll>
+          <div class="text">商品</div>
+        </h1>
+      </header>
+      <div class="scroll-wrapper">
+        <cube-scroll>
+          <cube-slide class="good-detail-slide" :data="good.images">
+            <cube-slide-item v-for="(item, index) in good.images" :key="index">
+              <div class="img-wrapper">
+                <img :src="item" width="100%">
+              </div>
+            </cube-slide-item>
+          </cube-slide>
+          <div class="good-desc">
+            <h2 class="good-name">{{good.name}}</h2>
+            <p class="good-price">{{good.price | price}}</p>
+          </div>
+          <div class="good-detail">
+            <img width="100%" :src="item" v-for="(item, index) in good.detail" :key="index">
+          </div>
+        </cube-scroll>
+      </div>
       <footer>
         <div class="cart">
           <i class="icon-cart"></i>
@@ -74,46 +78,52 @@ export default {
   position fixed
   top 0
   right 0
-  bottom 50px
+  bottom 0
   left 0
   z-index 100
   background #fff
   header
-    display flex
-    padding 0.5rem
-    .back
-      flex 0 0 1.2rem
-      width 1.2rem
-      extend-click()
+    padding 0 0.5rem
+    height 50px
     .title
-      flex 1
       text-align center
-  .good-detail-slide
-    .img-wrapper
-      position relative
-      width 100%
-      height 0
-      padding-top 100%
-      img
-        position absolute
-        top 0
-        left 0
+      line-height 50px
+      .back
+        float left
+        width 1.2rem
+        extend-click()
+  .scroll-wrapper
+    position fixed
+    top 50px
+    right 0
+    bottom 50px
+    left 0
+    .good-detail-slide
+      .img-wrapper
+        position relative
         width 100%
-        height 100%
-  .good-desc
-    border-top 1px solid #ddd
-    border-bottom 1px solid #ddd
-    padding 0.5rem
-    line-height 1.5
-    .good-name
-      font-size 0.8rem
-    .good-price
-      font-size 0.8rem
-      font-weight 600
-      color #e4393c
-  .good-detail
-    padding-top 0.5rem
-    font-size 0
+        height 0
+        padding-top 100%
+        img
+          position absolute
+          top 0
+          left 0
+          width 100%
+          height 100%
+    .good-desc
+      border-top 1px solid #ddd
+      border-bottom 1px solid #ddd
+      padding 0.5rem
+      line-height 1.5
+      .good-name
+        font-size 0.8rem
+      .good-price
+        font-size 0.8rem
+        font-weight 600
+        color #e4393c
+    .good-detail
+      padding-top 0.5rem
+      font-size 0
   footer
     display flex
     align-items center
