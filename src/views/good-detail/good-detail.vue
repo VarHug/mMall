@@ -32,14 +32,21 @@
           <i class="icon-cart"></i>
           <div class="cart-text">购物车</div>
         </div>
-        <div class="add-cart">加入购物车</div>
+        <div class="add-cart" @click.stop="addCart(good)">加入购物车</div>
         <div class="buy">立刻购买</div>
       </footer>
+      <top-tip ref="topTip" :delay="delay">
+        <div class="tip-title">商品已添加至购物车</div>
+      </top-tip>
     </div>
   </transition>
 </template>
 
 <script type="text/ecmascript-6">
+import { saveGood } from 'common/js/cache.js'
+import { mapGetters, mapMutations } from 'vuex'
+import TopTip from 'components/top-tip/top-tip'
+
 export default {
   props: {
     good: {
@@ -49,19 +56,40 @@ export default {
   },
   data() {
     return {
-      showFlag: false
+      showFlag: false,
+      delay: 1000
     }
   },
+  computed: {
+    ...mapGetters([
+      'cartList'
+    ])
+  },
   methods: {
+    ...mapMutations({
+      setCartList: 'SET_CARTLIST'
+    }),
     show() {
       this.showFlag = true
     },
     hide() {
       this.showFlag = false
+    },
+    addCart(good) {
+      let goodInfo = {
+        gid: good.gid,
+        num: 1,
+        price: good.price,
+        name: good.name,
+        pic: good.pic,
+        isChecked: false
+      }
+      this.setCartList(saveGood(goodInfo))
+      this.$refs.topTip.show()
     }
   },
   components: {
-
+    TopTip
   }
 }
 </script>
@@ -152,4 +180,10 @@ export default {
       background #ff9600
     .buy
       background #e4393c
+  .top-tip
+    height 50px
+    text-align center
+    line-height 50px
+    color #fff
+    font-size 0.8rem
 </style>

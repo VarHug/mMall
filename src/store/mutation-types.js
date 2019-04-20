@@ -1,0 +1,1 @@
+export const SET_CARTLIST = 'SET_CARTLIST'

@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Cube from 'cube-ui'
+import store from './store'
 
 import '@/common/stylus/index.styl'
 
@@ -18,6 +19,7 @@ Vue.filter('price', function (value) {
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
