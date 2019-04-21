@@ -24,6 +24,7 @@
                 <div class="good-price">{{item.price | price}}</div>
                 <input-number v-model="goodsnum[index]" @change="handleNumChange(index)"></input-number>
               </div>
+              <div class="good-sub-line"><span @click.stop="removeGood(item)">删除</span></div>
             </div>
           </li>
         </ul>
@@ -31,14 +32,14 @@
     </div>
     <div class="fix-bar">
       <div class="total">总计：<span class="total-price">{{getCheckedTotalPrice() | price}}</span></div>
-      <div class="buy" :class="{'disabled': getCheckedTotalAmount() === 0}">去结算<span class="total-amount">({{getCheckedTotalAmount()}}件)</span></div>
+      <div class="buy" :class="{'disabled': getCheckedTotalAmount() === 0}" @click="toCheckout()">去结算<span class="total-amount">({{getCheckedTotalAmount()}}件)</span></div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 import { mapGetters, mapMutations } from 'vuex'
-import { saveGood, setCheckedState } from 'common/js/cache.js'
+import { saveGood, setCheckedState, removeGood } from 'common/js/cache.js'
 import InputNumber from 'components/input-number/input-number'
 
 export default {
@@ -56,9 +57,11 @@ export default {
   },
   methods: {
     ...mapMutations({
-      setCartList: 'SET_CARTLIST'
+      setCartList: 'SET_CARTLIST',
+      setCheckedList: 'SET_CHECKED_LIST'
     }),
     _initCheckedState(cartList) {
+      this.checkedState = []
       for (let i = 0; i < cartList.length; i++) {
         this.checkedState[i] = cartList[i].isChecked
       }
@@ -68,6 +71,7 @@ export default {
       })
     },
     _initGoodsNum(cartlist) {
+      this.goodsnum = []
       for (let i = 0; i < cartlist.length; i++) {
         this.goodsnum[i] = cartlist[i].num
       }
@@ -128,11 +132,34 @@ export default {
         }
       }
       return totalAmount
+    },
+    toCheckout() {
+      let checkedList = []
+      this.checkedState.forEach((state, index) => {
+        if (state) {
+          checkedList.push(this.cartList[index])
+        }
+      })
+      if (checkedList.length > 0) {
+        this.setCheckedList(checkedList)
+        this.$router.push('/checkout')
+      }
+    },
+    removeGood(good) {
+      this.setCartList(removeGood(good.gid))
     }
   },
   created() {
     this._initCheckedState(this.cartList)
     this._initGoodsNum(this.cartList)
+  },
+  watch: {
+    cartList(newCartList, oldCartList) {
+      if (newCartList.length !== oldCartList.length) {
+        this._initCheckedState(newCartList)
+        this._initGoodsNum(newCartList)
+      }
+    }
   },
   components: {
     InputNumber
@@ -147,6 +174,7 @@ export default {
   right 0
   bottom 50px
   left 0
+  z-index 1
   .no-good
     position absolute
     top 50%
@@ -189,6 +217,11 @@ export default {
             .good-price
               font-size 0.8rem
               color #e93b3d
+          .good-sub-line
+            margin-top 0.5rem
+            line-height 1.5
+            text-align right
+            font-size 0.7rem
   .fix-bar
     display flex
     align-items center

@@ -1,5 +1,8 @@
-import { loadCartList } from 'common/js/cache.js'
+import { loadCartList, getAddress } from 'common/js/cache.js'
 
 export default {
-  cartList: loadCartList()
+  cartList: loadCartList(),
+  addressList: getAddress(),
+  checkedList: [],
+  checkedAddress: {}
 }

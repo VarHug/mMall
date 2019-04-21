@@ -1,6 +1,7 @@
 import storage from 'good-storage'
 
 const CART_LIST_KEY = '__cartList__'
+const ADDRESS_LIST_KEY = '__addressList__'
 
 // 将商品存入cartList
 export function saveGood(goodInfo) {
@@ -55,4 +56,35 @@ export function setCheckedState(states) {
   })
   storage.set(CART_LIST_KEY, cartList)
   return cartList
+}
+
+// 存入地址
+export function postAddress(address) {
+  let addressList = storage.get(ADDRESS_LIST_KEY, [])
+  addressList.push(address)
+  storage.set(ADDRESS_LIST_KEY, addressList)
+  return addressList
+}
+
+// 获得地址
+export function getAddress() {
+  return storage.get(ADDRESS_LIST_KEY, [])
+}
+
+// 更新地址
+export function putAddress() {
+
+}
+
+// 删除地址
+export function deleteAddress(addressId) {
+  let addressList = storage.get(ADDRESS_LIST_KEY, [])
+  let index = addressList.findIndex((address) => {
+    return address.id === addressId
+  })
+  if (index > -1) {
+    addressList.splice(index, 1)
+  }
+  storage.set(ADDRESS_LIST_KEY, addressList)
+  return addressList
 }

@@ -18,12 +18,6 @@
         <span>购物车</span>
       </router-link>
     </li>
-    <li>
-      <router-link class="c-a-btn" tag="a" to="/user">
-        <i class="c-a-icon icon-mine"></i>
-        <span>我的</span>
-      </router-link>
-    </li>
   </ul>
 </template>
 

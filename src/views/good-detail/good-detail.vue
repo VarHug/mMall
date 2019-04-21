@@ -1,14 +1,7 @@
 <template>
   <transition name="slide">
     <div class="detail" v-show="showFlag">
-      <header>
-        <h1 class="title">
-          <div class="back" @click="hide">
-            <i class="cubeic-back"></i>
-          </div>
-          <div class="text">商品</div>
-        </h1>
-      </header>
+      <common-header title="商品" @back="hide"></common-header>
       <div class="scroll-wrapper">
         <cube-scroll>
           <cube-slide class="good-detail-slide" :data="good.images">
@@ -28,12 +21,12 @@
         </cube-scroll>
       </div>
       <footer>
-        <div class="cart">
+        <div class="cart" @click.stop="toCart">
           <i class="icon-cart"></i>
           <div class="cart-text">购物车</div>
         </div>
         <div class="add-cart" @click.stop="addCart(good)">加入购物车</div>
-        <div class="buy">立刻购买</div>
+        <div class="buy" @click.stop="toCheckout(good)">立刻购买</div>
       </footer>
       <top-tip ref="topTip" :delay="delay">
         <div class="tip-title">商品已添加至购物车</div>
@@ -46,6 +39,7 @@
 import { saveGood } from 'common/js/cache.js'
 import { mapGetters, mapMutations } from 'vuex'
 import TopTip from 'components/top-tip/top-tip'
+import CommonHeader from 'components/common-header/common-header'
 
 export default {
   props: {
@@ -67,7 +61,8 @@ export default {
   },
   methods: {
     ...mapMutations({
-      setCartList: 'SET_CARTLIST'
+      setCartList: 'SET_CARTLIST',
+      setCheckedList: 'SET_CHECKED_LIST'
     }),
     show() {
       this.showFlag = true
@@ -86,10 +81,27 @@ export default {
       }
       this.setCartList(saveGood(goodInfo))
       this.$refs.topTip.show()
+    },
+    toCheckout(good) {
+      let goodInfo = {
+        gid: good.gid,
+        num: 1,
+        price: good.price,
+        name: good.name,
+        pic: good.pic,
+        isChecked: false
+      }
+      let checkedList = [goodInfo]
+      this.setCheckedList(checkedList)
+      this.$router.push('/checkout')
+    },
+    toCart() {
+      this.$router.push('/cart')
     }
   },
   components: {
-    TopTip
+    TopTip,
+    CommonHeader
   }
 }
 </script>
@@ -110,16 +122,6 @@ export default {
   left 0
   z-index 100
   background #fff
-  header
-    padding 0 0.5rem
-    height 50px
-    .title
-      text-align center
-      line-height 50px
-      .back
-        float left
-        width 1.2rem
-        extend-click()
   .scroll-wrapper
     position fixed
     top 50px

@@ -41,7 +41,8 @@ module.exports = {
       'common': resolve('src/common'),
       'components': resolve('src/components'),
       'views': resolve('src/views'),
-      'api': resolve('src/api')
+      'api': resolve('src/api'),
+      'data': resolve('src/data')
     }
   },
   plugins: [
